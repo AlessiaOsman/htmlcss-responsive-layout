@@ -49,6 +49,12 @@ header{
     padding: var(--spacing-m);
 }
 
+footer{
+    padding: 24px;
+    text-align: center;
+    color: var(--color-white);
+}
+
 ul{
     list-style-type: none;
 }
@@ -261,6 +267,10 @@ img{
 
 /*Receipt Description*/
 
+.receipt-description{
+    margin-bottom: var(--spacing-l);
+}
+
 .receipt-description-picture-text img{
     float: left;
     width: 200px;
@@ -285,3 +295,22 @@ img{
     border: none;
 }
 
+
+/*Footer info*/
+
+.footer-info{
+    margin-bottom: var(--spacing-l);
+}
+
+.footer-menu .row{
+    justify-content: center;
+}
+
+.footer-menu .col{
+    flex-basis: calc(100% / 4);
+    margin-bottom: var(--spacing-m);
+}
+
+.footer-menu .col a{
+    color: var(--color-white);
+}

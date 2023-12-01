@@ -34,4 +34,17 @@
         display: block;
         margin-bottom: var(--spacing-l);
     }
+
+    .banner img{
+        width: 100%;
+    }
+
+    .footer-menu .col{
+        flex-basis: calc(100% / 5);
+        margin-bottom: 0;
+    }
+
+    .footer-menu .row{
+        flex-wrap: nowrap;
+    }
 }
