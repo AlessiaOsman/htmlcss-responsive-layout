@@ -1,0 +1,44 @@
+/*Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Root*/
+
+:root{
+
+    font-size: 16px;
+    
+    /*Colors*/
+    --color-primary: #FF9614;
+
+    /*Spacing*/
+    --spacing-m: 16px;
+
+    /*Font Size*/
+    --font-size-s: 0.5rem;
+    --font-size-m: 1rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 2.5rem;
+    --font-size-big: 3rem;
+    
+}
+
+/*Generics*/
+
+header{
+    padding: var(--spacing-m);
+}
+
+h1{
+    font-family: 'Nerko One', cursive;
+    color: var(--color-primary);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: var(--font-size-big);
+    text-shadow: 2px 2px black;
+}
