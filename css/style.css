@@ -14,9 +14,14 @@
     
     /*Colors*/
     --color-primary: #FF9614;
+    --color-background: #F7F6F8;
+    --color-grey: #808080;
+    --color-dark-purple: #4E3969;
+    --color-white: #fff;
 
     /*Spacing*/
     --spacing-m: 16px;
+    --spacing-s: 8px;
 
     /*Font Size*/
     --font-size-s: 0.5rem;
@@ -29,6 +34,9 @@
 }
 
 /*Generics*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 header{
     padding: var(--spacing-m);
@@ -41,4 +49,73 @@ h1{
     text-transform: uppercase;
     font-size: var(--font-size-big);
     text-shadow: 2px 2px black;
+}
+
+h4{
+    margin-bottom: var(--spacing-s);
+}
+
+
+
+
+/*Utils*/
+
+.container{
+    padding: var(--spacing-s);
+}
+
+.icon-primary{
+    color: var(--color-primary);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+}
+
+.bg-color-main{
+    background-color: var(--color-background);
+}
+
+.bg-color-primary{
+    background-color: var(--color-primary);
+}
+
+.text-color-grey{
+    color: var(--color-grey);
+}
+
+.gap-8{
+    gap: var(--spacing-s);
+}
+
+/*Receipt Header*/
+
+.header-receipt-name-rating{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-receipt-name-rating .btn{
+    text-decoration: none;
+    color: var(--color-white);
+    padding: var(--spacing-s) var(--spacing-m);
+    border-radius: 25px;
+}
+
+.header-receipt-name{
+    font-size: var(--font-size-l);
+    color: var(--color-dark-purple);
+    
+}
+
+.header-receipt-name span{
+    display: none;
+}
+
+.header-receipt-rating{
+    align-items: center;
 }

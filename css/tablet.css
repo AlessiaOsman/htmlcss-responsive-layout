@@ -4,4 +4,12 @@
     h1{
         text-align: left;
     }
+
+    .container{
+        padding: var(--spacing-m);
+    }
+
+    .header-receipt-name span{
+        display: inline-block;
+    }
 }
