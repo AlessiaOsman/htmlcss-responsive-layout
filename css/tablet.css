@@ -32,5 +32,6 @@
 
     .banner{
         display: block;
+        margin-bottom: var(--spacing-l);
     }
 }

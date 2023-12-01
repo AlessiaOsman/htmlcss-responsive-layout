@@ -258,3 +258,30 @@ img{
 .banner{
     display: none;
 }
+
+/*Receipt Description*/
+
+.receipt-description-picture-text img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-bottom: var(--spacing-s);
+    margin-right: var(--spacing-s);
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.receipt-description-picture-text p{
+    text-align: justify;
+}
+
+.receipt-description hr{
+    width: 15%;
+    height: 2px;
+    border: none;
+}
+
