@@ -9,6 +9,10 @@
         padding: var(--spacing-m);
     }
 
+    .header-receipt-name{
+        font-size: var(--font-size-xl);
+    }
+
     .header-receipt-name span{
         display: inline-block;
     }
@@ -19,5 +23,10 @@
 
     .receipt-info-list li{
         margin-bottom: var(--spacing-l);
+    }
+
+    .social-icons .icon{
+        padding: var(--spacing-s) var(--spacing-l);
+        border-radius: 16px;
     }
 }

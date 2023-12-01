@@ -1,0 +1,42 @@
+/*tablet 992px*/
+
+@media screen and (min-width: 992px){
+
+    .container {
+        padding: 50px 100px;
+
+    }
+
+    .header-receipt-name{
+        font-size: var(--font-size-xxl);
+    }
+
+    .receipt-video-info{
+        display: flex;
+    }
+
+    .receipt-video{
+        flex-basis: 60%;
+    }   
+
+    .receipt-video > *{
+        height: 100%;
+        padding-bottom: var(--spacing-l);
+    }
+
+    .receipt-info{
+        flex-basis: 40%;
+    }
+
+    .row.receipt-info-list {
+        flex-direction: column;
+    }
+
+    .social-icons .icon{
+        padding: var(--spacing-s) var(--spacing-m);
+    }
+    
+    .social-icons p{
+        display: inline-block;
+    }
+}

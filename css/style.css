@@ -19,6 +19,10 @@
     --color-grey: #808080;
     --color-dark-purple: #4E3969;
     --color-white: #fff;
+    --color-facebook: #4267B2;
+    --color-twitter: #1DA1F2;
+    --color-instagram: pink;
+    --color-red: red;
 
     /*Spacing*/
     --spacing-l: 24px;
@@ -103,6 +107,22 @@ i{
     display: flex;
 }
 
+.color-fb{
+    color: var(--color-facebook);
+}
+
+.color-ig{
+    color: var(--color-instagram);
+}
+
+.color-twitter{
+    color: var(--color-twitter);
+}
+
+.color-red{
+    color: var(--color-red);
+}
+
 .bg-color-main{
     background-color: var(--color-background);
 }
@@ -125,6 +145,14 @@ i{
 
 .gap-8{
     gap: var(--spacing-s);
+}
+
+.gap-16{
+    gap: var(--spacing-m);
+}
+
+.gap-24{
+    gap: var(--spacing-l);
 }
 
 /*Receipt Header*/
@@ -163,6 +191,7 @@ i{
 
 .receipt-info{
     padding: var(--spacing-m);
+    margin-bottom: var(--spacing-l);
 }
 
 .receipt-info-header p{
@@ -200,4 +229,19 @@ i{
 
 .receipt-info-list li{
     margin-bottom: var(--spacing-m);
+}
+
+.social-icons{
+    justify-content: space-around;
+}
+
+.social-icons .icon{
+    background-color: var(--color-white);
+    padding: var(--spacing-s) var(--spacing-m);
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px var(--color-grey);
+}
+
+.social-icons p{
+    display: none;
 }
