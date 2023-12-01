@@ -12,4 +12,12 @@
     .header-receipt-name span{
         display: inline-block;
     }
+
+    .row.receipt-info-list{
+        flex-direction: row;
+    }
+
+    .receipt-info-list li{
+        margin-bottom: var(--spacing-l);
+    }
 }

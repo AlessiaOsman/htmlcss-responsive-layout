@@ -14,12 +14,14 @@
     
     /*Colors*/
     --color-primary: #FF9614;
+    --color-secondary: #7B69A2;
     --color-background: #F7F6F8;
     --color-grey: #808080;
     --color-dark-purple: #4E3969;
     --color-white: #fff;
 
     /*Spacing*/
+    --spacing-l: 24px;
     --spacing-m: 16px;
     --spacing-s: 8px;
 
@@ -36,10 +38,15 @@
 /*Generics*/
 body{
     font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 
 header{
     padding: var(--spacing-m);
+}
+
+ul{
+    list-style-type: none;
 }
 
 h1{
@@ -55,6 +62,15 @@ h4{
     margin-bottom: var(--spacing-s);
 }
 
+hr{
+    margin: var(--spacing-m) 0;
+}
+
+i{
+    width: 16px;
+    height: 16px;
+}
+
 
 
 
@@ -62,6 +78,17 @@ h4{
 
 .container{
     padding: var(--spacing-s);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.col{
+    padding: 0 1rem;
+    flex-basis: calc(100% / 3);
 }
 
 .icon-primary{
@@ -84,6 +111,14 @@ h4{
     background-color: var(--color-primary);
 }
 
+.bg-color-secondary{
+    background-color: var(--color-secondary);
+}
+
+.bg-color-white{
+    background-color: var(--color-white);
+}
+
 .text-color-grey{
     color: var(--color-grey);
 }
@@ -93,6 +128,10 @@ h4{
 }
 
 /*Receipt Header*/
+
+.header-receipt{
+    margin-bottom: var(--spacing-m);
+}
 
 .header-receipt-name-rating{
     justify-content: space-between;
@@ -118,4 +157,47 @@ h4{
 
 .header-receipt-rating{
     align-items: center;
+}
+
+/*Receipt video and info*/
+
+.receipt-info{
+    padding: var(--spacing-m);
+}
+
+.receipt-info-header p{
+    padding: var(--spacing-s);
+    border-radius: 8px;
+    color: var(--color-white);
+}
+
+.receipt-info-header p:last-child{
+    color: black;
+}
+
+.receipt-info-header{
+    padding: var(--spacing-m);
+    margin-bottom: var(--spacing-m);
+}
+
+.receipt-info-header-up{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.receipt-info-header-bottom{
+    align-items: baseline;
+}
+
+.receipt-info-header a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.row.receipt-info-list{
+    flex-direction: column;
+}
+
+.receipt-info-list li{
+    margin-bottom: var(--spacing-m);
 }
