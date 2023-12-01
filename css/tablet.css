@@ -29,4 +29,8 @@
         padding: var(--spacing-s) var(--spacing-l);
         border-radius: 16px;
     }
+
+    .banner{
+        display: block;
+    }
 }

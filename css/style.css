@@ -75,6 +75,10 @@ i{
     height: 16px;
 }
 
+img{
+    max-width: 100%;
+}
+
 
 
 
@@ -231,8 +235,11 @@ i{
     margin-bottom: var(--spacing-m);
 }
 
+/*Social Icons*/
+
 .social-icons{
     justify-content: space-around;
+    margin-bottom: var(--spacing-l);
 }
 
 .social-icons .icon{
@@ -243,5 +250,11 @@ i{
 }
 
 .social-icons p{
+    display: none;
+}
+
+/*Banner*/
+
+.banner{
     display: none;
 }
